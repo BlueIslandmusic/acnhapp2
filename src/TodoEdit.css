@@ -1,0 +1,132 @@
+
+* { box-sizing: border-box; }
+.edit{
+  width: 100%;
+  height: 100vh;          
+  position: relative;
+  text-align: left;
+  padding: 0 24px;        
+  background-color:#b4ccab;
+  overflow: hidden;       
+}
+.edittitle{
+  position: absolute;
+  top: 20px;
+  left:200px;
+  color: #FFFDEF;
+  font-size: 60px;
+  font-weight: 800;
+}
+.input{
+  position: absolute;
+  top:100px;
+  left :550px;
+  padding: 10px 80px;
+  border: none;
+  border-radius: 2px;
+  background: #FFFDEF;
+  color: #937924;
+  cursor: pointer;
+  font-size: 15px;
+}
+.inputbutton {
+  position: absolute;
+  top:100px;
+  left :900px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 8px;
+  background: #FFFDEF;
+  color: #937924;
+  cursor: pointer;
+  font-size: 15px;
+}
+.gomain{
+  position: absolute;
+  top: 580px;
+  left:200px;
+  color: #FFFDEF;
+  font-size: 20px;
+  font-weight: 800;
+}
+.gotitlee{
+  position: absolute;
+  top: 580px;
+  left:500px;
+  color: #FFFDEF;
+  font-size: 20px;
+  font-weight: 800;
+}
+.gomainbuttonn {
+  position: absolute;
+  top:600px;
+  left :340px;
+  padding: 5px 12px;
+  border: none;
+  border-radius: 8px;
+  background: #FFFDEF;
+  color: #937924;
+  cursor: pointer;
+  font-size: 12px;
+}
+.gotitlebuttonn {
+  position: absolute;
+  top:600px;
+  left :660px;
+  padding: 5px 12px;
+  border: none;
+  border-radius: 8px;
+  background: #FFFDEF;
+  color: #937924;
+  cursor: pointer;
+  font-size: 12px;
+}
+.editlist {
+  position : absolute;
+  top: 220px;
+  left:220px;
+  color: #937924;
+  font-size: 15px;
+  font-weight: 800;
+  font-family: "Corporate Mincho", "游明朝", serif;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  grid-auto-rows: auto;                  
+  gap: 20px 10px;                  
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 60%;
+}
+
+
+.editlist li {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0; 
+  padding: 0
+}
+.editlist-panel {
+  position: absolute;
+  top: 180px;
+  left: 200px;
+  width: 60%;
+  height: 400px;
+  background-color: #e7e3cf;
+  border-radius: 12px;
+  padding: 32px;
+}
+
+.deletebutton {
+  position: static;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 8px;
+  background: #FFFDEF;
+  color: #937924;
+  cursor: pointer;
+  font-size: 12px;
+  writing-mode: horizontal-tb;
+  white-space: nowrap;
+}

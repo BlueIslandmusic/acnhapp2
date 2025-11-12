@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../../../アプリ開発/prac-react"
+		},
+		{
+			"path": "../../../../アプリ開発/React"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "React"
+	}
+}
