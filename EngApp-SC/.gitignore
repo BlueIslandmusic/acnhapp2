@@ -1,0 +1,6 @@
+
+# ignore build output and caches
+build/
+node_modules/
+.cache/
+**/.cache/
