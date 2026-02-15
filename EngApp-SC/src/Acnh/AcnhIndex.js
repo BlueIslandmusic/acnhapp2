@@ -5,7 +5,7 @@ function AcnhIndex({gotitle, gohelp,gomem,gocando,gosearch,goinformation,goforyo
     return(
         <div className = "background">
         <div className = "Indexlist-panel"></div>
-            <img className = "image2" src = {img2}/>
+            <img className = "image2" src = {img2} alt = ""/>
             <h1 className = "WhatToDo">What to see?</h1>
             <p className = "goMem">メンバー紹介</p>
             <p className = "goCanDo">できること</p>

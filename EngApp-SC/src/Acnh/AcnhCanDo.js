@@ -12,7 +12,7 @@ function AcnhCanDo({goindex}) {
             <p className = "p5">対応一覧</p>
             <p className = "p6">ゼルダ,スプラ, サンリオamibo , カタログ家具, レシピ, 花,マイル旅行券, ベル, 非売品etc</p>
             <button className = "cgobackbutton" onClick = {()=>goindex()}>戻る</button>
-            <img className = "imgc" src = {img}/>
+            <img className = "imgc" src = {img} alt = ""/>
            
         </div>
     )}

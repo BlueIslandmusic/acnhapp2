@@ -1,6 +1,6 @@
 import { MemArr } from "./MemArr";
 import "./MemPage.css";
-import { useState } from "react";
+
 
 function MemPage({ gomem, selectedNo }) {
   const arr = MemArr[selectedNo];

@@ -10,7 +10,7 @@ function MemIndex({openMem,goindex}){
             <p className = "no3">ゆ</p>
             <p className = "no4">まいかる</p>
             <p className = "no5">さら</p>
-            <img className = "image3" src = {img2}/>
+            <img className = "image3" src = {img2} alt = ""/>
             <p className = "back">前画面に戻る</p>
             <button className = "no1button" onClick={() => openMem(0)}>開く</button>
             <button className = "no2button" onClick={() => openMem(1)}>開く</button>

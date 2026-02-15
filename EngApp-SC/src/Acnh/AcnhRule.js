@@ -14,7 +14,7 @@ function AcnhRule({goindex}) {
             <p className = "r7">検索欄にて具体的な個数を見ることができます．</p>
 
             <button className = "rgobackbutton" onClick = {()=>goindex()}>戻る</button>
-            <img className = "imgr" src = {img}/>
+            <img className = "imgr" src = {img} alt = ""/>
            
         </div>
     )}

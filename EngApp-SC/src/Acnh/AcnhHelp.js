@@ -11,7 +11,7 @@ function AcnhHelp({goindex}) {
             <p className = "h4">Q :  暇女子会に入りたいです</p>
             <p className = "h5">A :  現在募集はしておりません．申し訳ございません</p>
             <button className = "hgobackbutton" onClick = {()=>goindex()}>戻る</button>
-            <img className = "imgh" src = {img}/>
+            <img className = "imgh" src = {img} alt = ""/>
            
         </div>
     )}
