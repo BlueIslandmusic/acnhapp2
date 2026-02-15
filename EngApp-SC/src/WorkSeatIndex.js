@@ -1,0 +1,21 @@
+import "./WorkSeatIndex.css"
+function WorkSeatIndex({openWorkSeat,goindex}){
+    return(
+        <div className = "background">
+        <div className = "Testlist-panel"></div>
+            <h1 className = "wtd" >What to do ?</h1>
+            <p className = "no1">第一回</p>
+            <p className = "no2">第二回</p>
+            <p className = "no3">第三回</p>
+            <p className = "no4">第四回</p>
+            <p className = "no5">第五回</p>
+            <p className = "back">前画面に戻る</p>
+            <button className = "no1button" onClick={() => openWorkSeat(0)}>開く</button>
+            <button className = "no2button" onClick={() => openWorkSeat(1)}>開く</button>
+            <button className = "no3button" onClick={() => openWorkSeat(2)}>開く</button>
+           
+            <button className = "backbutton" onClick = {() => goindex()} >戻る</button>
+        </div>
+    )
+}
+export default WorkSeatIndex

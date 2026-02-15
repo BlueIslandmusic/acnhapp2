@@ -1,0 +1,35 @@
+.csno1{ position: absolute;
+  top: 230px;
+  left: 200px;
+  color: #FFFDEF;
+  font-size: 20px;
+  font-weight: 800;
+}
+.csno2{ position: absolute;
+  top: 280px;
+  left: 200px;
+  color: #FFFDEF;
+  font-size: 20px;
+  font-weight: 800;
+}
+.csgoback{
+  position: absolute;
+  top: 570px;
+  left: 550px;
+  color: #FFFDEF;
+  font-size: 20px;
+  font-weight: 800;
+}
+.csgobackbutton {
+  position: absolute;
+  top:590px;
+  left :680px;
+  padding: 5px 12px;
+  border: none;
+  border-radius: 8px;
+  background: #FFFDEF;
+  color: #9cc3c4;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 800;
+}

@@ -1,0 +1,49 @@
+.Wordslist-panel {
+  position: absolute;
+  top: 180px;
+  left: 150px;
+  width: 80%;
+  height: 500px;
+  background-color: #FFFDEF;
+  border-radius: 12px;
+  padding: 32px;
+}
+.no01button {
+  position: absolute;
+  top:245px;
+  left :450px;
+  padding: 5px 12px;
+  border: none;
+  border-radius: 8px;
+  background: #9cc3c4;
+  color: #FFFDEF;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 800;
+}
+.no02button {
+  position: absolute;
+  top:315px;
+  left :450px;
+  padding: 5px 12px;
+  border: none;
+  border-radius: 8px;
+  background: #9cc3c4;
+  color: #FFFDEF;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 800;
+}
+.back0button {
+  position: absolute;
+  top:595px;
+  left :450px;
+  padding: 5px 12px;
+  border: none;
+  border-radius: 8px;
+  background: #9cc3c4;
+  color: #FFFDEF;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 800;
+}

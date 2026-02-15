@@ -1,0 +1,267 @@
+* { box-sizing: border-box; }
+
+.background{
+  width: 100%;
+  height: 100vh;          
+  position: relative;
+  text-align: left;
+  padding: 0 24px;        
+  background-color:#9cc3c4;
+  overflow: hidden;       
+}
+.Indexlist-panel {
+  position: absolute;
+  top: 180px;
+  left: 150px;
+  width: 80%;
+  height: 500px;
+  background-color: #FFFDEF;
+  border-radius: 12px;
+  padding: 32px;
+}
+.WhatToDo{
+  position: absolute;
+  top: 30px;
+  left: 150px;
+  color: #FFFDEF;
+  font-size: 50px;
+  font-weight: 800;
+}
+
+.goMem{
+  position: absolute;
+  top: 230px;
+  left: 200px;
+  color: #9cc3c4;
+  font-size: 20px;
+  font-weight: 800;
+}
+.goCanDo{
+  position: absolute;
+  top: 300px;
+  left: 200px;
+  color: #9cc3c4;
+  font-size: 20px;
+  font-weight: 800;
+}
+.goHelp{
+  position: absolute;
+  top: 370px;
+  left: 200px;
+  color: #9cc3c4;
+  font-size: 20px;
+  font-weight: 800;
+}
+.goSearch{
+  position: absolute;
+  top: 440px;
+  left: 200px;
+  color: #9cc3c4;
+  font-size: 20px;
+  font-weight: 800;
+}
+.goPractice{
+  position: absolute;
+  top: 510px;
+  left: 200px;
+  color: #9cc3c4;
+  font-size: 20px;
+  font-weight: 800;
+}
+.goInformation{
+  position: absolute;
+  top: 230px;
+  left: 750px;
+  color: #9cc3c4;
+  font-size: 20px;
+  font-weight: 800;
+}
+.goForyou{
+  position: absolute;
+  top: 300px;
+  left: 750px;
+  color: #9cc3c4;
+  font-size: 20px;
+  font-weight: 800;
+}
+.goTitle{
+  position: absolute;
+  top: 370px;
+  left: 750px;
+  color: #9cc3c4;
+  font-size: 20px;
+  font-weight: 800;
+}
+.Membutton {
+  position: absolute;
+  top:245px;
+  left :400px;
+  padding: 5px 12px;
+  border: none;
+  border-radius: 8px;
+  background: #9cc3c4;
+  color: #FFFDEF;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 800;
+}
+.CanDobutton {
+  position: absolute;
+  top:315px;
+  left :400px;
+  padding: 5px 12px;
+  border: none;
+  border-radius: 8px;
+  background: #9cc3c4;
+  color: #FFFDEF;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 800;
+}
+.Helpbutton {
+  position: absolute;
+  top:385px;
+  left :400px;
+  padding: 5px 12px;
+  border: none;
+  border-radius: 8px;
+  background: #9cc3c4;
+  color: #FFFDEF;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 800;
+}
+.Searchbutton {
+  position: absolute;
+  top:455px;
+  left :400px;
+  padding: 5px 12px;
+  border: none;
+  border-radius: 8px;
+  background: #9cc3c4;
+  color: #FFFDEF;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 800;
+}
+
+.Informationbutton {
+  position: absolute;
+  top:245px;
+  left :950px;
+  padding: 5px 12px;
+  border: none;
+  border-radius: 8px;
+  background: #9cc3c4;
+  color: #FFFDEF;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 800;
+}
+.Titlebutton {
+  position: absolute;
+  top:385px;
+  left :950px;
+  padding: 5px 12px;
+  border: none;
+  border-radius: 8px;
+  background: #9cc3c4;
+  color: #FFFDEF;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 800;
+}
+.ForYoubutton {
+  position: absolute;
+  top:315px;
+  left :950px;
+  padding: 5px 12px;
+  border: none;
+  border-radius: 8px;
+  background: #9cc3c4;
+  color: #FFFDEF;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 800;
+}
+.image2 {
+  position: absolute;
+  top: 500px;
+  left: 1000px;
+  width: 10%;
+  height: 200px;
+  border-radius: 12px;
+  padding: 32px;
+}
+.image1 {
+ position: absolute;
+  top: 180px;
+  left: 150px;
+  width: 80%;
+  height: 500px;
+  opacity: 0.7;
+}
+
+@media (max-width: 480px) {
+  .background {
+    padding: 0 12px;
+    text-align: center;
+  }
+
+
+  .WhatToDo {
+    position: static;
+    margin-top: 24px;
+    font-size: 32px;
+  }
+
+
+  .Indexlist-panel {
+    position: static;
+    width: 92vw;
+    max-width: 520px;
+    height: 60vh;
+    margin: 16px auto 0;
+    padding: 16px;
+    overflow-y: auto;
+  }
+
+
+  .goMem,
+  .goCanDo,
+  .goHelp,
+  .goSearch,
+  .goPractice,
+  .goInformation,
+  .goForyou,
+  .goTitle {
+    position: static;
+    display: block;
+    margin: 12px 0 4px;
+    font-size: 16px;
+    text-align: left;
+  }
+
+
+  .Membutton,
+  .CanDobutton,
+  .Helpbutton,
+  .Searchbutton,
+  .Informationbutton,
+  .Titlebutton,
+  .ForYoubutton {
+    position: static;
+    display: block;
+    width: 100%;
+    padding: 10px 12px;
+    margin: 0 0 12px;
+    font-size: 14px;
+    border-radius: 10px;
+  }
+
+  
+  .image1,
+  .image2 {
+    display: none;
+  }
+} 
