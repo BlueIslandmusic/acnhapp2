@@ -49,7 +49,7 @@ function AcnhSearchPage({ goindex }) {
           </div>
         )}
       </div>
-      <img className = "imgs" src = {img}/>
+      <img className = "imgs" src = {img} alt =""/>
       <p className="srgoback">前画面に戻る</p>
       <button className="srgobackbutton" onClick={goindex}>
         戻る

@@ -10,7 +10,7 @@ function AcnhInf({goindex}) {
             <p className = "i3">料理レシピ覚え放題    担当 : ゆ             〆切 2.15</p>
 
             <button className = "igobackbutton" onClick = {()=>goindex()}>戻る</button>
-            <img className = "imgi" src = {img}/>
+            <img className = "imgi" src = {img} alt = ""/>
            
         </div>
     )}
